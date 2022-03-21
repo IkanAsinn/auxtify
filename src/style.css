@@ -1,0 +1,170 @@
+body {
+    background-color: #EEEDDE;
+}
+
+.nav-link {
+    margin-right: 50px;
+    font-family: Poppins, "Sans Serif"
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+.jumbotron {
+    background-color: #EEEDDE;
+    color: #203239;
+    text-align: center;
+    font-family: Poppins, "Sans Serif";
+    margin-top: 100px;
+}
+
+.jumbotron h1 {
+    font-family: Poppins, "Sans Serif";
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.jumbotron .lead {
+    font-family: Poppins, "Sans Serif";
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.search-bar {
+    width: 140px;
+    margin-top: 100px;
+}
+
+.jumbotron button {
+    margin-top: 100px;
+    background-color: #203239;
+    color: #fff;
+}
+
+.my-form {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron img {
+    display: none;
+}
+
+
+@media (min-width: 992px) {
+
+    .nav-link.active::after {
+        content: "";
+        display: block;
+        border-bottom: 4px solid #F6762E;
+        width: 50%;
+        border-radius: 4px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    .account {
+        background: rgba(246, 118, 46, 0.52);
+        border-radius: 35px;
+        height: 40px;
+
+    }
+
+    .jumbotron {
+        height: 500px;
+        padding-top: 80px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .jumbotron h1 {
+        font-family: "Poppins", "Sans Serif";
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .jumbotron .lead {
+        font-size: 20px;
+    }
+
+    .search-bar {
+        width: 430px !important;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .jumbotron button {
+        margin-left: -25px;
+        background-color: #203239;
+        color: #fff;
+        width: 150px;
+        height: 50px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .jumbotron img {
+        margin-top: -380px;
+        margin-right: -150px;
+        display: block;
+    }
+
+    .my-form {
+        left: 0%;
+        transform: translate(0%, 0%);
+        position: relative;
+    }
+
+    .form-control:focus,
+    .btn:focus {
+        border-color: #cccccc;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .row {
+        padding-top: 40px;
+    }
+
+    .col-sm h1 {
+        font-size: 50px;
+        margin-left: -27px;
+    }
+
+    .col-sm span {
+        color: #F6762E;
+    }
+
+    .col-sm p {
+        margin-left: -27px;
+    }
+
+    .search input {
+        height: 70px;
+        text-indent: 35px;
+        border-radius: 15px;
+    }
+
+
+    .search .fa-search {
+        position: absolute;
+        top: 401px;
+        margin-left: 13px
+    }
+
+
+    .search button {
+        position: absolute;
+        top: -10px;
+        right: 25px;
+        height: 50px;
+        width: 130px;
+        background: #203239;
+        border-radius: 10px;
+    }
+
+}
