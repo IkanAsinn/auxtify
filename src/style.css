@@ -44,12 +44,6 @@ body {
     color: #fff;
 }
 
-.my-form {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .jumbotron img {
     display: none;
 }
@@ -113,11 +107,6 @@ body {
         display: block;
     }
 
-    .my-form {
-        left: 0%;
-        transform: translate(0%, 0%);
-        position: relative;
-    }
 
     .form-control:focus,
     .btn:focus {
