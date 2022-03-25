@@ -74,6 +74,14 @@ body {
     background-color: #EEEDDE;
 }
 
+.sidebar {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: calc(-90px + 100vh);
+    position: fixed;
+}
 
 .sidebar .top {
     margin-top: -20px;
@@ -82,7 +90,10 @@ body {
 
 .main-content {
     height: 550px;
+    width: 100%;
     padding: 10px;
+    margin-left: 230px;
+    display: block;
 }
 
 #separator-footer {
@@ -94,10 +105,17 @@ body {
 
 footer {
     background-color: #203239;
+    width: 85%;
     height: 69px;
     display: flex;
     justify-content: space-between;
+    margin-left: 210px;
+    margin-right: 0;
+    padding-left: 50px;
+    position: absolute;
+    right: 0;
 }
+
 
 footer .container {
     display: flex;
