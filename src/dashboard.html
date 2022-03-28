@@ -27,11 +27,6 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand m-lg-3" href="#"><img src="../images/logo.svg" alt="Auxtify Logo"></a>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <form class="search d-flex">
@@ -40,9 +35,19 @@
                                 placeholder="Sepatu Converse Chuck 70s ukuran...."> <button class="btn">Search</button>
                         </form>
                         <div class="user-profile">
-                            <a href="#"><img src="../images/user_profile.png" alt="user profile"></a>
+                            <img src="../images/user_profile.png" style="cursor:pointer" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                <li><a class="dropdown-item" href="#">Watchlist</a></li>
+                                <li><a class="dropdown-item" href="#">Wallet</a></li>
+                                <li><a class="dropdown-item" href="#">Filter</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+
                             <div class="user-profile-text">
-                                <p>Susi Susanti</p>
+                                Susi Susanti
                             </div>
                         </div>
                     </div>
