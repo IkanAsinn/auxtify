@@ -3,6 +3,31 @@ body {
     min-height: -webkit-fill-available;
 }
 
+.img-product{
+    margin-left: 3%;
+}
+.midcontent{
+    width: 100%;
+    padding: 0 3% 3% 3%;
+}
+
+.price{
+    float: left;
+    margin-left: 8%;
+}
+
+.button{
+    padding-top: 12%;
+    margin-left: 50%;
+}
+
+.button button{
+    display: block;
+    margin: 5%;
+    text-align: left;
+
+}
+
 .search input {
     height: 55px;
     text-indent: 35px;
@@ -89,9 +114,8 @@ body {
 }
 
 .main-content {
-    height: 100vh;
     width: 100%;
-    padding: 10px;
+    padding: 10px 20px;
     margin-left: 230px;
     display: block;
 }
@@ -130,28 +154,36 @@ footer .container {
 .product-under{
     display:flex;
     justify-content: space-between;
-    width: 55%;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
     /* border: 1px solid red; */
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 #buttonbid{
-    margin-left: 200px;
-    margin-top: -100px;
-    background-color: #FF7527;
+    /* margin-left: 200px;
+    margin-top: -100px; */
+    background-color: #ebc2ab;
     color: black;
-    font-weight: 600;
+    font-size: large;
     text-align: left;
+    border: 3px solid rgb(253, 122, 0);
+    border-radius: 8%;
 }
 #buttontime{
-    margin-left: 160px;
-    margin-top: -90px;
+    /* margin-left: 160px; */
+    /* margin-top: -90px; */
     background-color:rgba(237, 47, 21, 0.47);
-    border: 2px solid red;
+    border: 3px solid red;
     color: black;
+    font-size: large;
     text-align: left;
+    border-radius: 8%;
 }
+#buttontime b{
+    font-weight: 600;
+}
+
 .bidding{
     /* border: 1px solid red; */
     width: 55%;
@@ -194,4 +226,88 @@ footer .container {
     border: none;
     font-size: larger;
     font-weight: bold;
+}
+
+.description{
+    width: 100%;
+    margin-top: 3%;
+    background-color: rgb(224, 218, 218);
+}
+
+.description .olshop{
+    width: 50%;
+    float: left;
+}
+
+.logo img{
+    margin-left: 3%;
+    margin-top: 2%;
+    float: left;
+}
+
+.logo .title{
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+    font-size: 150%;
+    font-weight: 100;
+}
+.logo .title b{
+    font-weight: 100;
+}
+
+.logo .title h1{
+    font-size: 50%;
+}
+
+#chat{
+    /* width: 15%; */
+    margin-top: 1%;
+    margin-left: 2%;
+    padding-right: 1%;
+    text-align: right;
+}
+#chat img{
+    margin: 0;
+    padding: 0;
+}
+
+.detail u{
+    margin-left: 2%;
+    margin-top: 1%;
+    float: left;
+    font-size: 130%;
+    font-weight: 510;
+    float: left;
+}
+
+.detail .descript-material{
+    margin-left: 1%;
+    margin-top: 1.8%;
+    float: left;
+}
+
+.description .addres{
+    float: right;
+    padding-top: 2%;
+    width: 35%;
+    text-align: left;
+}
+
+
+.addres h1{
+    font-size: 150%;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.description .line{
+    width: 0.5%;
+    height: 180px;
+    background-color: rgb(151, 140, 140);
+    float: right;
+    margin: 1% 2% 1% 2%;
+    border-radius: 100px;
+    box-sizing: border-box;
 }
